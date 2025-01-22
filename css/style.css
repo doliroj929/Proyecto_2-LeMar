@@ -1,0 +1,93 @@
+
+.menu__opciones--logo{
+    width: 10rem;
+    height: 8rem;
+    object-fit: cover ;
+    border-radius: 5rem;
+}
+
+
+.cabecera {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido del header */
+    align-items: center;    /* Centra verticalmente el contenido del header */
+    background: #892a26;
+    width: 60rem;
+    height: 3rem;            /* Ocupa todo el ancho de la página */
+    position: fixed;    
+    top: 4rem;                 /* la distancias de tope de pagina*/
+    left: 20rem;                /* Asegura que empiece desde el borde izquierdo */
+    border-radius: 1rem;       /*el borde dondeado */
+}
+
+.cabecera_menu {
+    display: flex;          /* Asegura que los elementos dentro estén alineados en fila */
+    justify-content: center; /* Centra los elementos del menú dentro de su contenedor */
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__opciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaciado entre los elementos del menú */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.menu__opciones--tipo a {
+    display: block;
+    font-family: 'Franklin Gothic Medium', ;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px; /* Ajusta el relleno para un mejor diseño */
+}
+
+.menu__opciones--tipo a:hover {
+    background: #f7c26c;
+    color: #070707;
+    border-radius: 5px; /* Redondea las esquinas al pasar el cursor */
+}
+
+/*main*/
+
+
+.cuadro {
+    display: flex; /* Asegura que las imágenes estén en fila horizontal */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+    gap: 40px; /* Espaciado entre las imágenes */
+    margin-top: 10rem; /* Añade espacio para evitar que el contenido se superponga al header */
+
+}
+
+.imagen__arte {
+    width: 30rem; /* Ajusta el ancho de las imágenes */
+    height: 30rem; /* Mantiene la proporción de las imágenes */
+    object-fit: cover ;
+    border-radius: 10px; /* Redondea las esquinas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra elegante */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones para hover */
+    
+}
+
+.imagen__arte:hover {
+    transform: scale(1.2); /* Aumenta ligeramente el tamaño al pasar el cursor */
+    box-shadow: 0 8px 16px black; /* Incrementa la sombra en hover */
+}
+
+.bienvenida{
+    background-color: #f7c26c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+    color: black;
+    text-emphasis: none; 
+    margin: 0 1rem;
+
+}
